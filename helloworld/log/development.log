@@ -1,0 +1,178 @@
+Started GET "/" for ::1 at 2021-11-15 14:16:02 +0900
+  [1m[35m (6.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.3ms | Allocations: 603)
+Completed 200 OK in 44ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 4772)
+
+
+Started GET "/" for ::1 at 2021-11-15 14:36:05 +0900
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.7ms | Allocations: 495)
+Completed 200 OK in 32ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 3631)
+
+
+Started GET "/hello/index" for ::1 at 2021-11-15 14:36:13 +0900
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 147)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/ryota_re_loaded/Documents/VScode/railsbook/my_web_apps/helloworld/public/packs
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 3254ms
+Built at: 2021/11/15 14:36:20
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6947.5ms | Allocations: 15245)
+Completed 200 OK in 6957ms (Views: 6952.8ms | ActiveRecord: 0.0ms | Allocations: 16714)
+
+
+Started GET "/hello/index" for ::1 at 2021-11-15 14:42:18 +0900
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 272)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 4125)
+Completed 200 OK in 28ms (Views: 25.7ms | Allocations: 5589)
+
+
+Started GET "/hello/index" for ::1 at 2021-11-15 14:50:44 +0900
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 447)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 4292)
+Completed 200 OK in 38ms (Views: 34.8ms | Allocations: 5666)
+
+
+Started GET "/hello/index" for ::1 at 2021-11-15 14:55:20 +0900
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 193)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 4016)
+Completed 200 OK in 26ms (Views: 23.6ms | Allocations: 5491)
+
+
+Started GET "/hello/rails" for ::1 at 2021-11-15 15:47:24 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/hello/rails"):
+  
+Started GET "/hello/routes" for ::1 at 2021-11-15 15:47:37 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/hello/routes"):
+  
+Started GET "/hello/rails/info/routes" for ::1 at 2021-11-15 15:47:56 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/hello/rails/info/routes"):
+  
+Started GET "/rails/info/routes" for ::1 at 2021-11-15 15:48:06 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 8.6ms | Allocations: 4349)
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.3ms | Allocations: 761)
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 19.3ms | Allocations: 8650)
+  Rendered layout /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb (Duration: 21.3ms | Allocations: 8882)
+Completed 200 OK in 28ms (Views: 24.2ms | Allocations: 10339)
+
+
+Started GET "/rails/info/routes" for ::1 at 2021-11-15 15:57:01 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 21.8ms | Allocations: 4349)
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.6ms | Allocations: 765)
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 30.9ms | Allocations: 8651)
+  Rendered layout /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb (Duration: 31.8ms | Allocations: 8880)
+Completed 200 OK in 40ms (Views: 34.5ms | Allocations: 10183)
+
+
+Started GET "/hello" for ::1 at 2021-11-15 16:09:02 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/" for ::1 at 2021-11-15 16:09:07 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.7ms | Allocations: 264)
+Completed 200 OK in 21ms (Views: 18.1ms | Allocations: 1052)
+
+
+Started GET "/railas/info/routus" for ::1 at 2021-11-15 16:15:13 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/railas/info/routus"):
+  
+Started GET "/rails/info/routus" for ::1 at 2021-11-15 16:15:23 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/rails/info/routus"):
+  
+Started GET "/rails/info/routes" for ::1 at 2021-11-15 16:15:32 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 14.0ms | Allocations: 4048)
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.5ms | Allocations: 132)
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 20.5ms | Allocations: 7265)
+  Rendered layout /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb (Duration: 20.7ms | Allocations: 7338)
+Completed 200 OK in 23ms (Views: 21.7ms | Allocations: 7830)
+
+
+Started GET "/hello/index" for ::1 at 2021-11-16 11:07:29 +0900
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 472)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.1ms | Allocations: 6958)
+Completed 200 OK in 68ms (Views: 52.0ms | ActiveRecord: 0.0ms | Allocations: 10893)
+
+
+Started GET "/hello/index" for ::1 at 2021-11-16 11:13:43 +0900
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 3650)
+Completed 200 OK in 18ms (Views: 16.8ms | Allocations: 4216)
+
+
+Started GET "/hello/index" for ::1 at 2021-11-16 11:13:47 +0900
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3487)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 3933)
+
+
+Started GET "/rails/info/routes" for ::1 at 2021-11-16 11:26:38 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 11.2ms | Allocations: 4482)
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 3.6ms | Allocations: 1061)
+  Rendered /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 20.8ms | Allocations: 9215)
+  Rendered layout /Users/ryota_re_loaded/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb (Duration: 22.6ms | Allocations: 9472)
+Completed 200 OK in 29ms (Views: 25.3ms | Allocations: 10963)
+
+
